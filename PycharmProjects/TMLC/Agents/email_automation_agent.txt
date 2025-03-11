@@ -1,0 +1,38 @@
+### **1️⃣ Input: Email Received**
+
+An email arrives and is processed by the agent. Example:
+
+💬 *"I ordered a product a week ago and haven’t received it yet!
+This is unacceptable!"*
+
+---
+
+### **2️⃣ Processing Stages**
+
+🔍 **Web Search Module** (Optional)
+
+- If the email requests external info (e.g., order status, product details),
+fetch relevant data online.
+
+📚 **RAG (Retrieval-Augmented Generation)**
+
+- Retrieve related company policies, customer support FAQs,
+or past emails to provide a knowledgeable response.
+
+😊 **Sentiment Analysis**
+
+- Detects tone (e.g., **angry, neutral, happy**).
+- If **angry**, the response will be **empathetic & solution-oriented**.
+- If **neutral**, the response will be **informative & professional**.
+- If **happy**, the response will be **warm & appreciative**.
+
+---
+
+### **3️⃣ Output: AI-Generated Email Response**
+
+💡 **Final AI Response:**
+
+*"We sincerely apologize for the delay in your order.
+Our team is looking into this, and we will update you within 24 hours.
+Meanwhile, you can track your order here: [Tracking Link].
+ We appreciate your patience!"*
