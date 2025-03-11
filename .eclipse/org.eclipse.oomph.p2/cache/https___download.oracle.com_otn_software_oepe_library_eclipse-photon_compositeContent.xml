@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeMetadataRepository version='1.0.0'?>
+<repository name='Eclipse Photon' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
+    <children>
+        <child location='../eclipse-4.8'/>
+        <child location='../eclipse-wtp-3.10.0'/>
+        <child location='../eclipse-jetty-9.4.10'/>
+        <child location='../eclipse-dtp-1.14.100'/>
+        <child location='../eclipse-emf-2.14'/>
+        <child location='../eclipse-gef-4'/>
+        <child location='../eclipse-egit-5.0.0'/>        
+        <child location='../eclipse-mylyn-3.24'/>
+        <child location='../eclipse-mpc-1.7.0'/>
+        <child location='../eclipse-m2e-1.9'/>
+        <child location='../eclipse-m2e-wtp-1.4'/>
+        <child location='../eclipse-oomph-1.9'/>
+        <child location='../eclipse-userstorage-1.1'/>
+        <child location='../eclipse-orbit-R20180606145124'/>
+    </children>
+</repository>

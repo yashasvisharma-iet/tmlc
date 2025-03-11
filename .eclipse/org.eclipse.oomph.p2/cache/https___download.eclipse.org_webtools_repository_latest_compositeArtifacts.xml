@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeArtifactRepository version='1.0.0'?>
+<repository name='Eclipse Web Tools Update Site - latest' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1710297783000'/>
+    <property name='p2.compressed' value='true'/>
+  </properties>
+  <children size='2'>
+    <child location='https://download.eclipse.org/webtools/downloads/drops/R3.33.0/R-3.33.0-20240304165142/repository/'/>
+    <child location='https://download.eclipse.org/webtools/downloads/drops/R3.33.0/R-3.33.0-20240304165142/repositoryunittests/'/>
+  </children>
+</repository>
